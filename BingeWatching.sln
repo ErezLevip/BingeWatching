@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BingeWatching.API", "src\BingeWatching\BingeWatching.API.csproj", "{0E7E8983-8932-46FC-9C6A-585D6F335361}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BingeWatching.Client", "src\BingeWatching.Client\BingeWatching.Client.csproj", "{C8696D94-1C0E-49AC-902A-5D679AB3326D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BingeWatching.Domain", "src\bingeWatching.Domain\BingeWatching.Domain.csproj", "{F098A019-D8D8-4AB1-98CB-672F6D5AAE1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BingeWatching.Domain.Entities", "src\BingeWatching.Domain.Entities\BingeWatching.Domain.Entities.csproj", "{1A326229-7DBF-4E8B-BE2B-C78FF9F54663}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BingeWatching.Enums", "src\BingeWatching.Enums\BingeWatching.Enums.csproj", "{C7FA7BB5-724C-421D-B59F-6D116660D020}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BingeWatching.Repository", "src\BingeWatching.Repository\BingeWatching.Repository.csproj", "{09A66092-AFA4-422D-8A76-C89683B65E26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BingeWatching.Contracts", "src\BingeWatching.Contracts\BingeWatching.Contracts.csproj", "{EA1680B7-7453-4AB8-B726-F70D2D8522AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{0FF00FEE-2324-450C-B044-AC984B37A817}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{B0A579C9-EFAC-4514-B8A5-05602256999B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{FB652792-BA40-4686-8060-4AE6E38B8F97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{E282876C-EF75-49B9-B4AC-967CBE3DFD8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingeWatching.API.Client", "src\BingeWatching.API.Client\BingeWatching.API.Client.csproj", "{4717071A-F450-4FC7-85B7-910608A6F31C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "global", "global", "{E4147366-938F-43DE-A5F2-FD65C74AE4D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E7E8983-8932-46FC-9C6A-585D6F335361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7E8983-8932-46FC-9C6A-585D6F335361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7E8983-8932-46FC-9C6A-585D6F335361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7E8983-8932-46FC-9C6A-585D6F335361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8696D94-1C0E-49AC-902A-5D679AB3326D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8696D94-1C0E-49AC-902A-5D679AB3326D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8696D94-1C0E-49AC-902A-5D679AB3326D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8696D94-1C0E-49AC-902A-5D679AB3326D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F098A019-D8D8-4AB1-98CB-672F6D5AAE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F098A019-D8D8-4AB1-98CB-672F6D5AAE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F098A019-D8D8-4AB1-98CB-672F6D5AAE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F098A019-D8D8-4AB1-98CB-672F6D5AAE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A326229-7DBF-4E8B-BE2B-C78FF9F54663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A326229-7DBF-4E8B-BE2B-C78FF9F54663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A326229-7DBF-4E8B-BE2B-C78FF9F54663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A326229-7DBF-4E8B-BE2B-C78FF9F54663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7FA7BB5-724C-421D-B59F-6D116660D020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FA7BB5-724C-421D-B59F-6D116660D020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FA7BB5-724C-421D-B59F-6D116660D020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FA7BB5-724C-421D-B59F-6D116660D020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A66092-AFA4-422D-8A76-C89683B65E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A66092-AFA4-422D-8A76-C89683B65E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A66092-AFA4-422D-8A76-C89683B65E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A66092-AFA4-422D-8A76-C89683B65E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1680B7-7453-4AB8-B726-F70D2D8522AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1680B7-7453-4AB8-B726-F70D2D8522AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1680B7-7453-4AB8-B726-F70D2D8522AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1680B7-7453-4AB8-B726-F70D2D8522AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4717071A-F450-4FC7-85B7-910608A6F31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4717071A-F450-4FC7-85B7-910608A6F31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4717071A-F450-4FC7-85B7-910608A6F31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4717071A-F450-4FC7-85B7-910608A6F31C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E7E8983-8932-46FC-9C6A-585D6F335361} = {0FF00FEE-2324-450C-B044-AC984B37A817}
+		{C8696D94-1C0E-49AC-902A-5D679AB3326D} = {B0A579C9-EFAC-4514-B8A5-05602256999B}
+		{F098A019-D8D8-4AB1-98CB-672F6D5AAE1B} = {FB652792-BA40-4686-8060-4AE6E38B8F97}
+		{1A326229-7DBF-4E8B-BE2B-C78FF9F54663} = {FB652792-BA40-4686-8060-4AE6E38B8F97}
+		{C7FA7BB5-724C-421D-B59F-6D116660D020} = {E4147366-938F-43DE-A5F2-FD65C74AE4D3}
+		{09A66092-AFA4-422D-8A76-C89683B65E26} = {E282876C-EF75-49B9-B4AC-967CBE3DFD8E}
+		{EA1680B7-7453-4AB8-B726-F70D2D8522AA} = {0FF00FEE-2324-450C-B044-AC984B37A817}
+		{4717071A-F450-4FC7-85B7-910608A6F31C} = {0FF00FEE-2324-450C-B044-AC984B37A817}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A08D95B0-833E-4022-8A1C-CBB3A8803F0B}
+	EndGlobalSection
+EndGlobal

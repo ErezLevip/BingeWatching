@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BingeWatching.Contracts\BingeWatching.Contracts.csproj" />
+    <ProjectReference Include="..\BingeWatching.Domain.Entities\BingeWatching.Domain.Entities.csproj" />
+    <ProjectReference Include="..\bingeWatching.Domain\BingeWatching.Domain.csproj" />
+    <ProjectReference Include="..\BingeWatching.Enums\BingeWatching.Enums.csproj" />
+    <ProjectReference Include="..\BingeWatching.Repository\BingeWatching.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
